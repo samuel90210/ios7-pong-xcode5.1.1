@@ -14,6 +14,28 @@
 
 @implementation Game
 
+-(void)ComputerMovement
+{
+    if(Computer.center.x > Ball.center.x)
+    {
+        Computer.center = CGPointMake(Computer.center.x - 2, Computer.center.y);
+    }
+    if(Computer.center.x < Ball.center.x)
+    {
+        Computer.center = CGPointMake(Computer.center.x + 2, Computer.center.y);
+    }
+    if(Computer.center.x < 37)
+    {
+        Computer.center = CGPointMake(37, Computer.center.y);
+    }
+    if(Computer.center.x > 283)
+    {
+        Computer.center = CGPointMake(283, Computer.center.y);
+    }
+    
+    
+}
+
 - (IBAction)StartButton:(id)sender
 {
     
