@@ -30,6 +30,7 @@
 		232F88AA196DC0910047D59D /* Menu04.png in Resources */ = {isa = PBXBuildFile; fileRef = 232F88A1196DC0910047D59D /* Menu04.png */; };
 		232F88AB196DC0910047D59D /* Menu05.png in Resources */ = {isa = PBXBuildFile; fileRef = 232F88A2196DC0910047D59D /* Menu05.png */; };
 		232F88AC196DC0910047D59D /* Player.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 232F88A3196DC0910047D59D /* Player.jpg */; };
+		234DA0531973116200BEBC08 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 234DA0521973116200BEBC08 /* Game.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,8 @@
 		232F88A1196DC0910047D59D /* Menu04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Menu04.png; sourceTree = "<group>"; };
 		232F88A2196DC0910047D59D /* Menu05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Menu05.png; sourceTree = "<group>"; };
 		232F88A3196DC0910047D59D /* Player.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Player.jpg; sourceTree = "<group>"; };
+		234DA0511973116200BEBC08 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		234DA0521973116200BEBC08 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +133,8 @@
 		232F886C196DBE1A0047D59D /* Pong Tutorial */ = {
 			isa = PBXGroup;
 			children = (
+				234DA0511973116200BEBC08 /* Game.h */,
+				234DA0521973116200BEBC08 /* Game.m */,
 				232F8875196DBE1A0047D59D /* MyAppDelegate.h */,
 				232F8876196DBE1A0047D59D /* MyAppDelegate.m */,
 				232F8878196DBE1A0047D59D /* Main.storyboard */,
@@ -289,6 +294,7 @@
 				232F887D196DBE1A0047D59D /* MyViewController.m in Sources */,
 				232F8877196DBE1A0047D59D /* MyAppDelegate.m in Sources */,
 				232F8873196DBE1A0047D59D /* main.m in Sources */,
+				234DA0531973116200BEBC08 /* Game.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,6 +499,7 @@
 				232F8897196DBE1B0047D59D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		232F8898196DBE1B0047D59D /* Build configuration list for PBXNativeTarget "Pong TutorialTests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +508,7 @@
 				232F889A196DBE1B0047D59D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

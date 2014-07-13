@@ -23,9 +23,9 @@
                                           [UIImage imageNamed:@"Menu04.png"],
                                           [UIImage imageNamed:@"Menu05.png"], nil];
     
-    [AnimatedBackground animationRepeatCount: 0];
-    
-    AnimatedBackground setAnimationDuration = 5;
+    [AnimatedBackground setAnimationRepeatCount: 0];
+    AnimatedBackground.animationDuration = 5;
+    [AnimatedBackground startAnimating];
     
     
     
