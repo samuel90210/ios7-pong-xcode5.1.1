@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		232F8867196DBE1A0047D59D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232F8866196DBE1A0047D59D /* Foundation.framework */; };
+		232F8869196DBE1A0047D59D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232F8868196DBE1A0047D59D /* CoreGraphics.framework */; };
+		232F886B196DBE1A0047D59D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232F886A196DBE1A0047D59D /* UIKit.framework */; };
+		232F8871196DBE1A0047D59D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 232F886F196DBE1A0047D59D /* InfoPlist.strings */; };
+		232F8873196DBE1A0047D59D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 232F8872196DBE1A0047D59D /* main.m */; };
+		232F8877196DBE1A0047D59D /* MyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 232F8876196DBE1A0047D59D /* MyAppDelegate.m */; };
+		232F887A196DBE1A0047D59D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 232F8878196DBE1A0047D59D /* Main.storyboard */; };
+		232F887D196DBE1A0047D59D /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 232F887C196DBE1A0047D59D /* MyViewController.m */; };
+		232F887F196DBE1A0047D59D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 232F887E196DBE1A0047D59D /* Images.xcassets */; };
+		232F8886196DBE1A0047D59D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232F8885196DBE1A0047D59D /* XCTest.framework */; };
+		232F8887196DBE1A0047D59D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232F8866196DBE1A0047D59D /* Foundation.framework */; };
+		232F8888196DBE1A0047D59D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232F886A196DBE1A0047D59D /* UIKit.framework */; };
+		232F8890196DBE1A0047D59D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 232F888E196DBE1A0047D59D /* InfoPlist.strings */; };
+		232F8892196DBE1A0047D59D /* Pong_TutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 232F8891196DBE1A0047D59D /* Pong_TutorialTests.m */; };
+		232F88A4196DC0910047D59D /* Ball.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 232F889B196DC0910047D59D /* Ball.jpg */; };
+		232F88A5196DC0910047D59D /* Board.png in Resources */ = {isa = PBXBuildFile; fileRef = 232F889C196DC0910047D59D /* Board.png */; };
+		232F88A6196DC0910047D59D /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 232F889D196DC0910047D59D /* logo.png */; };
+		232F88A7196DC0910047D59D /* Menu01.png in Resources */ = {isa = PBXBuildFile; fileRef = 232F889E196DC0910047D59D /* Menu01.png */; };
+		232F88A8196DC0910047D59D /* Menu02.png in Resources */ = {isa = PBXBuildFile; fileRef = 232F889F196DC0910047D59D /* Menu02.png */; };
+		232F88A9196DC0910047D59D /* Menu03.png in Resources */ = {isa = PBXBuildFile; fileRef = 232F88A0196DC0910047D59D /* Menu03.png */; };
+		232F88AA196DC0910047D59D /* Menu04.png in Resources */ = {isa = PBXBuildFile; fileRef = 232F88A1196DC0910047D59D /* Menu04.png */; };
+		232F88AB196DC0910047D59D /* Menu05.png in Resources */ = {isa = PBXBuildFile; fileRef = 232F88A2196DC0910047D59D /* Menu05.png */; };
+		232F88AC196DC0910047D59D /* Player.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 232F88A3196DC0910047D59D /* Player.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		232F8889196DBE1A0047D59D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 232F885B196DBE1A0047D59D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 232F8862196DBE1A0047D59D;
+			remoteInfo = "Pong Tutorial";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		232F8863196DBE1A0047D59D /* Pong Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pong Tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		232F8866196DBE1A0047D59D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		232F8868196DBE1A0047D59D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		232F886A196DBE1A0047D59D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		232F886E196DBE1A0047D59D /* Pong Tutorial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pong Tutorial-Info.plist"; sourceTree = "<group>"; };
+		232F8870196DBE1A0047D59D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		232F8872196DBE1A0047D59D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		232F8874196DBE1A0047D59D /* Pong Tutorial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pong Tutorial-Prefix.pch"; sourceTree = "<group>"; };
+		232F8875196DBE1A0047D59D /* MyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyAppDelegate.h; sourceTree = "<group>"; };
+		232F8876196DBE1A0047D59D /* MyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAppDelegate.m; sourceTree = "<group>"; };
+		232F8879196DBE1A0047D59D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		232F887B196DBE1A0047D59D /* MyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		232F887C196DBE1A0047D59D /* MyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		232F887E196DBE1A0047D59D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		232F8884196DBE1A0047D59D /* Pong TutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pong TutorialTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		232F8885196DBE1A0047D59D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		232F888D196DBE1A0047D59D /* Pong TutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pong TutorialTests-Info.plist"; sourceTree = "<group>"; };
+		232F888F196DBE1A0047D59D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		232F8891196DBE1A0047D59D /* Pong_TutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pong_TutorialTests.m; sourceTree = "<group>"; };
+		232F889B196DC0910047D59D /* Ball.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ball.jpg; sourceTree = "<group>"; };
+		232F889C196DC0910047D59D /* Board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Board.png; sourceTree = "<group>"; };
+		232F889D196DC0910047D59D /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		232F889E196DC0910047D59D /* Menu01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Menu01.png; sourceTree = "<group>"; };
+		232F889F196DC0910047D59D /* Menu02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Menu02.png; sourceTree = "<group>"; };
+		232F88A0196DC0910047D59D /* Menu03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Menu03.png; sourceTree = "<group>"; };
+		232F88A1196DC0910047D59D /* Menu04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Menu04.png; sourceTree = "<group>"; };
+		232F88A2196DC0910047D59D /* Menu05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Menu05.png; sourceTree = "<group>"; };
+		232F88A3196DC0910047D59D /* Player.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Player.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		232F8860196DBE1A0047D59D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				232F8869196DBE1A0047D59D /* CoreGraphics.framework in Frameworks */,
+				232F886B196DBE1A0047D59D /* UIKit.framework in Frameworks */,
+				232F8867196DBE1A0047D59D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		232F8881196DBE1A0047D59D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				232F8886196DBE1A0047D59D /* XCTest.framework in Frameworks */,
+				232F8888196DBE1A0047D59D /* UIKit.framework in Frameworks */,
+				232F8887196DBE1A0047D59D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		232F885A196DBE1A0047D59D = {
+			isa = PBXGroup;
+			children = (
+				232F886C196DBE1A0047D59D /* Pong Tutorial */,
+				232F888B196DBE1A0047D59D /* Pong TutorialTests */,
+				232F8865196DBE1A0047D59D /* Frameworks */,
+				232F8864196DBE1A0047D59D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		232F8864196DBE1A0047D59D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				232F8863196DBE1A0047D59D /* Pong Tutorial.app */,
+				232F8884196DBE1A0047D59D /* Pong TutorialTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		232F8865196DBE1A0047D59D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				232F8866196DBE1A0047D59D /* Foundation.framework */,
+				232F8868196DBE1A0047D59D /* CoreGraphics.framework */,
+				232F886A196DBE1A0047D59D /* UIKit.framework */,
+				232F8885196DBE1A0047D59D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		232F886C196DBE1A0047D59D /* Pong Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				232F8875196DBE1A0047D59D /* MyAppDelegate.h */,
+				232F8876196DBE1A0047D59D /* MyAppDelegate.m */,
+				232F8878196DBE1A0047D59D /* Main.storyboard */,
+				232F887B196DBE1A0047D59D /* MyViewController.h */,
+				232F887C196DBE1A0047D59D /* MyViewController.m */,
+				232F887E196DBE1A0047D59D /* Images.xcassets */,
+				232F886D196DBE1A0047D59D /* Supporting Files */,
+			);
+			path = "Pong Tutorial";
+			sourceTree = "<group>";
+		};
+		232F886D196DBE1A0047D59D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				232F889B196DC0910047D59D /* Ball.jpg */,
+				232F889C196DC0910047D59D /* Board.png */,
+				232F889D196DC0910047D59D /* logo.png */,
+				232F889E196DC0910047D59D /* Menu01.png */,
+				232F889F196DC0910047D59D /* Menu02.png */,
+				232F88A0196DC0910047D59D /* Menu03.png */,
+				232F88A1196DC0910047D59D /* Menu04.png */,
+				232F88A2196DC0910047D59D /* Menu05.png */,
+				232F88A3196DC0910047D59D /* Player.jpg */,
+				232F886E196DBE1A0047D59D /* Pong Tutorial-Info.plist */,
+				232F886F196DBE1A0047D59D /* InfoPlist.strings */,
+				232F8872196DBE1A0047D59D /* main.m */,
+				232F8874196DBE1A0047D59D /* Pong Tutorial-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		232F888B196DBE1A0047D59D /* Pong TutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				232F8891196DBE1A0047D59D /* Pong_TutorialTests.m */,
+				232F888C196DBE1A0047D59D /* Supporting Files */,
+			);
+			path = "Pong TutorialTests";
+			sourceTree = "<group>";
+		};
+		232F888C196DBE1A0047D59D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				232F888D196DBE1A0047D59D /* Pong TutorialTests-Info.plist */,
+				232F888E196DBE1A0047D59D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		232F8862196DBE1A0047D59D /* Pong Tutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 232F8895196DBE1B0047D59D /* Build configuration list for PBXNativeTarget "Pong Tutorial" */;
+			buildPhases = (
+				232F885F196DBE1A0047D59D /* Sources */,
+				232F8860196DBE1A0047D59D /* Frameworks */,
+				232F8861196DBE1A0047D59D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pong Tutorial";
+			productName = "Pong Tutorial";
+			productReference = 232F8863196DBE1A0047D59D /* Pong Tutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		232F8883196DBE1A0047D59D /* Pong TutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 232F8898196DBE1B0047D59D /* Build configuration list for PBXNativeTarget "Pong TutorialTests" */;
+			buildPhases = (
+				232F8880196DBE1A0047D59D /* Sources */,
+				232F8881196DBE1A0047D59D /* Frameworks */,
+				232F8882196DBE1A0047D59D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				232F888A196DBE1A0047D59D /* PBXTargetDependency */,
+			);
+			name = "Pong TutorialTests";
+			productName = "Pong TutorialTests";
+			productReference = 232F8884196DBE1A0047D59D /* Pong TutorialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		232F885B196DBE1A0047D59D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = My;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ola Skierbiszewska";
+				TargetAttributes = {
+					232F8883196DBE1A0047D59D = {
+						TestTargetID = 232F8862196DBE1A0047D59D;
+					};
+				};
+			};
+			buildConfigurationList = 232F885E196DBE1A0047D59D /* Build configuration list for PBXProject "Pong Tutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 232F885A196DBE1A0047D59D;
+			productRefGroup = 232F8864196DBE1A0047D59D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				232F8862196DBE1A0047D59D /* Pong Tutorial */,
+				232F8883196DBE1A0047D59D /* Pong TutorialTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		232F8861196DBE1A0047D59D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				232F88A5196DC0910047D59D /* Board.png in Resources */,
+				232F88A9196DC0910047D59D /* Menu03.png in Resources */,
+				232F88A7196DC0910047D59D /* Menu01.png in Resources */,
+				232F887F196DBE1A0047D59D /* Images.xcassets in Resources */,
+				232F88AB196DC0910047D59D /* Menu05.png in Resources */,
+				232F88AA196DC0910047D59D /* Menu04.png in Resources */,
+				232F88A6196DC0910047D59D /* logo.png in Resources */,
+				232F88A8196DC0910047D59D /* Menu02.png in Resources */,
+				232F8871196DBE1A0047D59D /* InfoPlist.strings in Resources */,
+				232F88A4196DC0910047D59D /* Ball.jpg in Resources */,
+				232F88AC196DC0910047D59D /* Player.jpg in Resources */,
+				232F887A196DBE1A0047D59D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		232F8882196DBE1A0047D59D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				232F8890196DBE1A0047D59D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		232F885F196DBE1A0047D59D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				232F887D196DBE1A0047D59D /* MyViewController.m in Sources */,
+				232F8877196DBE1A0047D59D /* MyAppDelegate.m in Sources */,
+				232F8873196DBE1A0047D59D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		232F8880196DBE1A0047D59D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				232F8892196DBE1A0047D59D /* Pong_TutorialTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		232F888A196DBE1A0047D59D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 232F8862196DBE1A0047D59D /* Pong Tutorial */;
+			targetProxy = 232F8889196DBE1A0047D59D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		232F886F196DBE1A0047D59D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				232F8870196DBE1A0047D59D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		232F8878196DBE1A0047D59D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				232F8879196DBE1A0047D59D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		232F888E196DBE1A0047D59D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				232F888F196DBE1A0047D59D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		232F8893196DBE1A0047D59D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		232F8894196DBE1A0047D59D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		232F8896196DBE1B0047D59D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pong Tutorial/Pong Tutorial-Prefix.pch";
+				INFOPLIST_FILE = "Pong Tutorial/Pong Tutorial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		232F8897196DBE1B0047D59D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pong Tutorial/Pong Tutorial-Prefix.pch";
+				INFOPLIST_FILE = "Pong Tutorial/Pong Tutorial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		232F8899196DBE1B0047D59D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pong Tutorial.app/Pong Tutorial";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pong Tutorial/Pong Tutorial-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Pong TutorialTests/Pong TutorialTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		232F889A196DBE1B0047D59D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pong Tutorial.app/Pong Tutorial";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pong Tutorial/Pong Tutorial-Prefix.pch";
+				INFOPLIST_FILE = "Pong TutorialTests/Pong TutorialTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		232F885E196DBE1A0047D59D /* Build configuration list for PBXProject "Pong Tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				232F8893196DBE1A0047D59D /* Debug */,
+				232F8894196DBE1A0047D59D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		232F8895196DBE1B0047D59D /* Build configuration list for PBXNativeTarget "Pong Tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				232F8896196DBE1B0047D59D /* Debug */,
+				232F8897196DBE1B0047D59D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		232F8898196DBE1B0047D59D /* Build configuration list for PBXNativeTarget "Pong TutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				232F8899196DBE1B0047D59D /* Debug */,
+				232F889A196DBE1B0047D59D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 232F885B196DBE1A0047D59D /* Project object */;
+}
