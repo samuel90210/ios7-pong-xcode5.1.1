@@ -28,12 +28,10 @@
     {
         Computer.center = CGPointMake(37, Computer.center.y);
     }
-    if(Computer.center.x > 283)
+    if(Computer.center.x > 305)
     {
-        Computer.center = CGPointMake(283, Computer.center.y);
+        Computer.center = CGPointMake(305, Computer.center.y);
     }
-    
-    
 }
 
 - (IBAction)StartButton:(id)sender
@@ -59,6 +57,8 @@
 
 -(void)BallMovement
 {
+    [self ComputerMovement];
+    
     Ball.center = CGPointMake(Ball.center.x + X, Ball.center.y + Y);
     
     if(Ball.center.x < 15)

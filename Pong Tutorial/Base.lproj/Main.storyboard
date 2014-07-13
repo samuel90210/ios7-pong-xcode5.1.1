@@ -58,7 +58,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ball.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="1QN-zK-6Jh">
-                                <rect key="frame" x="20" y="112" width="30" height="30"/>
+                                <rect key="frame" x="145" y="219" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9iy-OJ-ahq">
@@ -73,7 +73,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Player.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="NUv-9J-CUh">
-                                <rect key="frame" x="123" y="14" width="74" height="23"/>
+                                <rect key="frame" x="123" y="20" width="74" height="23"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Player.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="83d-ju-jqG">
@@ -85,6 +85,9 @@
                     </view>
                     <connections>
                         <outlet property="Ball" destination="1QN-zK-6Jh" id="SvK-rT-ZPd"/>
+                        <outlet property="Computer" destination="NUv-9J-CUh" id="Ngd-6s-zE0"/>
+                        <outlet property="Player" destination="83d-ju-jqG" id="EST-Ab-gOu"/>
+                        <outlet property="StartButton" destination="9iy-OJ-ahq" id="NYQ-vE-OXv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y4S-NI-oqS" userLabel="First Responder" sceneMemberID="firstResponder"/>
